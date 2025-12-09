@@ -47,14 +47,7 @@ export default function Hero() {
         </motion.div>
 
         {/* Mascot Image */}
-        <motion.img
-          src="/images/avatar-mascot.png"
-          alt="Roblox Avatar"
-          className="absolute -bottom-10 -right-10 w-64 md:w-96 hidden lg:block drop-shadow-2xl"
-          initial={{ x: 200, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 0.5, type: "spring" }}
-        />
+
       </div>
     </section>
   );
