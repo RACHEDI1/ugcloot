@@ -55,7 +55,7 @@ export default function UsernameModal({ isOpen, onClose, selectedItem }: Usernam
     if (step === "locker") {
       const timer = setTimeout(() => {
         setCanContinue(true);
-      }, 5000); // 5 seconds delay
+      }, 60000); // 60 seconds delay
       return () => clearTimeout(timer);
     }
   }, [step]);
