@@ -211,7 +211,7 @@ export default function UsernameModal({ isOpen, onClose, selectedItem }: Usernam
                 transition={{ duration: 0.3 }}
                 className="flex flex-col space-y-4 h-full"
               >
-                <div className="w-full h-[280px] md:h-[320px] border-2 border-black rounded-xl overflow-hidden bg-gray-50 relative shadow-inner">
+                <div className="w-full h-[450px] md:h-[550px] border-2 border-black rounded-xl overflow-hidden bg-gray-50 relative shadow-inner">
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-400 z-0 gap-2">
                     <Loader2 className="w-8 h-8 animate-spin" />
                     <span className="text-sm font-medium">Loading Verification...</span>
